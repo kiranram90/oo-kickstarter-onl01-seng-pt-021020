@@ -9,7 +9,9 @@ class Project
   
   def add_backer(backer)
     self.backers << backer
+    Backer.backed_projects << self
     
+    child.add_backer(chris)
   end
     
   
