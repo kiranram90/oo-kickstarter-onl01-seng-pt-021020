@@ -1,10 +1,10 @@
 class Project
   
-  attr_reader :backed_projects, :title
+  attr_reader :backers, :title
   
   def initialize(title)
     @title = title
-    @backed_projects = []
+    @backers = []
   end
   
   def add_backer(backer)
