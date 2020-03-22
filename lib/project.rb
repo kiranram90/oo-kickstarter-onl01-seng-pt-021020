@@ -11,7 +11,7 @@ class Project
     self.backers << backer
     backer.backed_projects << self
     
-    child.add_backer(chris)
+    
   end
     
   
